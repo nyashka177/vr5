@@ -24,14 +24,9 @@
 </script>
   </head>
   <body>
+    <script type="module" src="/main.js"></script>
     <script src="three.min.js"></script>
     <script>
-    import * as THREE from 'three';
-    import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-    import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-    const controls = new OrbitControls( camera, renderer.domElement );
-    const loader = new GLTFLoader();
-      
       var WIDTH = window.innerWidth;
       var HEIGHT = window.innerHeight;
       /* весь наш JavaScript-код будет после этого комментария */
